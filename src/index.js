@@ -95,9 +95,9 @@ function displayWeatherConditions(response) {
   let feelsLikeDisplay = document.querySelector("#feels-like");
   let iconDisplay = document.querySelector("#icon");
 
-  fahrenheitTemp = response.data.main.temp;
+  celsiusTemp = response.data.main.temp;
 
-  tempDisplay.innerHTML = Math.round(fahrenheitTemp);
+  tempDisplay.innerHTML = Math.round(celsiusTemp);
   cityDisplay.innerHTML = response.data.name;
   descriptionDisplay.innerHTML = response.data.weather[0].description;
   humidityDisplay.innerHTML = response.data.main.humidity;
@@ -128,6 +128,6 @@ function handleSubmit(event) {
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 
-let fahrenheitTemp = null;
+let celsiusTemp = null;
 
 search("Vienna");

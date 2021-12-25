@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&family=PT+Serif:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weatherApp">
+        <form class="form-inline search-form" id="search-form">
+          <div class="row">
+            <div class="col">
+              <input
+                class="form-control mr-sm-2 w-100"
+                type="search"
+                placeholder="City"
+                aria-label="Search"
+                id="city-search-id"
+                autocomplete="off"
+                autofocus="off"
+              />
+            </div>
+            <div class="col">
+              <input
+                type="submit"
+                value="Search"
+                class="btn btn-light search-button"
+              />
+            </div>
+          </div>
+        </form>
+        <div class="cityInfo">
+          <h1 id="city"></h1>
+          <ul>
+            <li class="dayOverview" id="dayOverview"></li>
+          </ul>
+          <div class="tempDisplay">
+            <div class="d-flex justify-content-center weather-temperature">
+              <img src="" alt="Clear" id="icon" />
+              <strong id="temperature"></strong><span class="units">ºF</span>
+            </div>
+            <div class="humidityWindDisplay">
+              <ul>
+                <li>Feels like: <span id="feels-like"></span> ºF</li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> m/h</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="weather-forecast" id="forecast"></div>
+        <div class="footer">
+          <p>
+            <a
+              href="https://github.com/merve86"
+              class="github-link"
+              target="_blank"
+              >Open-source code</a
+            >
+            by <span class="name">Merve Gökcen</span>
+          </p>
+          <p class="timestamp">
+            Forecast last updated:<span class="time" id="time-id"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

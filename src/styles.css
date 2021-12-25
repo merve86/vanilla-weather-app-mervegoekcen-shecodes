@@ -1,0 +1,214 @@
+body {
+  font-family: "Audiowide", sans-serif;
+}
+
+input {
+  margin: 30px;
+  font-family: "Audiowide", sans-serif;
+}
+
+h1 {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  text-align: center;
+}
+
+ul {
+  padding: 5;
+  margin: 5;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Audiowide", sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 25px;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  font-family: "Audiowide", sans-serif;
+}
+
+.weatherApp {
+  background: url("https://images.unsplash.com/photo-1483638994033-15b73fe7af18?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #d0e9dd;
+  font-weight: 500;
+  border: 1px solid #0a0a0a;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 5px;
+}
+.video-wrapper {
+  border: 2px solid #000;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-form {
+  padding-top: 20px;
+}
+
+.search-button {
+  color: #ffffff;
+  background-color: #e7beca;
+  padding: 10px;
+  margin: 22px;
+  border-radius: 14px;
+  border-width: 1px;
+  border-color: transparent;
+  transition: all 150ms ease-in-out;
+  font-family: "Audiowide", sans-serif;
+}
+
+.search-button:hover {
+  color: #ffffff;
+  background-color: #a3d0e6;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 55;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: #ffffff;
+  font-size: 55px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  font-size: 16px;
+  top: -34px;
+  text-decoration: none;
+}
+
+.fahrenheit-link,
+.celsius-link {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 120ms ease-in-out;
+}
+
+.fahrenheit-link:hover,
+.celsius-link:hover {
+  color: #795b63;
+}
+
+.tempDisplay {
+  padding-top: 10px;
+}
+
+.cityInfo {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.icon {
+  text-align: justify;
+}
+
+.city,
+.time,
+.emoji,
+.dayOverview,
+.currentTemp,
+.humidity,
+.wind {
+  display: block;
+  margin: 0 auto;
+  text-transform: capitalize;
+}
+
+.cityInfo,
+.tempDisplay,
+.humidityWindDisplay {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.time {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.dayOverview {
+  font-size: 20px;
+  font-family: "Audiowide", sans-serif;
+}
+
+.temp {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.bg-custom {
+  border-radius: 14px;
+  background-color: transparent;
+}
+
+.navbar-brand {
+  color: rgb(209, 203, 203);
+}
+
+.weather-forecast-date {
+  font-size: 20px;
+  font-family: "Audiowide", sans-serif;
+}
+
+.weather-forecast-temperature-max {
+  color: #ffffff;
+  font-size: 18px;
+}
+.weather-forecast-temperature-min {
+  color: rgb(209, 203, 203);
+  font-size: 18px;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: "Audiowide", sans-serif;
+}
+
+.github-link {
+  color: #bbc4c7;
+  transition: all 120ms ease-in-out;
+  text-decoration: none;
+}
+
+.github-link:hover {
+  color: rgb(255, 230, 230);
+  font-family: "Audiowide", sans-serif;
+}
+
+.name {
+  font-family: "Audiowide", sans-serif;
+}
+
+.timestamp {
+  font-size: 10px;
+}
